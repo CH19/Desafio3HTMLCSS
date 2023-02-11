@@ -1,3 +1,5 @@
+/*DESAFIO DE CHRIS
+PRUEBA DE QUE TODO SE GUARDO PERFECTO, IGNORAR*/
 body
 {
 	font-family: 'Roboto Slab', serif;
@@ -5,6 +7,16 @@ body
 p
 {
 	font-family: 'Roboto', sans-serif;
+}
+#sliders{
+	width: 100vw;
+	
+
+}
+#sliders .item> img{ /*obj 1*/
+	width: 100vw;
+	
+	
 }
 #servicios
 {
@@ -36,7 +48,7 @@ p
 	margin: 0 auto;
 	margin-bottom: 4em;
 }
-#servicios span
+#servicios .row .col-md-12  span
 {
 	font-size: 4em;
 	border-radius: 50%;
@@ -62,18 +74,19 @@ p
 	padding: 2em 0;
 	
 }
-#empresa p
+/* #empresa p
 {
 	font-size: 1.4em;
-}
-#empresa div > p
+} */
+#empresa > p /*objetivo 2*/
 {
+	font-size: 1.4em;
 	text-align: center;
 	margin-top: 2em;
 	
 	padding-top: 3em;
 }
-#empresa  > .filosofia + p
+#empresa  > .filosofia + p /*onj */
 {
 	font-size: 1.3em;
 }
@@ -88,7 +101,7 @@ p
 	margin: 1em 0;
 	text-align: center;
 }
-#empresa span
+#empresa > span
 {
 	font-size: 4em;
 }
@@ -119,7 +132,7 @@ header
 	text-align: center;
 	margin: 3em 0;
 }
-#consulta h2
+#consulta div[class="form-group"] /*objetivo 4*/
 {
 	font-size: 3em;
 	font-weight: 700;
